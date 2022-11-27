@@ -6,12 +6,12 @@ from collections import Counter
 import model
 from PIL import Image
 
-image = Image.open('D:/Allianz/Project1/env/bugimage.jpg')
+image = Image.open('bugimage.jpg')
 
 
 
 
-feature_col=pickle.load(open("D:/Allianz/Project1/env/features.sav",'rb'))
+feature_col=pickle.load(open("features.sav",'rb'))
 
 nav = st.sidebar.radio("Navigation",["Home","Prediction","Working"])
 if nav=="Home":
