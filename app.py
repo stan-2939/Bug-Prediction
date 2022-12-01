@@ -53,7 +53,7 @@ if nav=="Working":
     st.title("This is how the model actually works")
     st.write("The machine learning models deployed after vigorous training and testing phases provide the output prediction as of whether the code you've written contains a bug or not.")
     st.write("")
-    st.write("The model we have used here is ExtraTrees Classifier and the accuracy of the model is 90.6%")
+    st.write("The model we have used here is SGDC Classifier and the accuracy of the model is 90.6%")
     st.write("")
 
 
