@@ -27,7 +27,7 @@ def predict():
     if prediction_res==0:
        st.success(":tada: Congo!! There is no bug in the code 	:tada:")
     if prediction_res==1:
-       st.error(":disappointed: Oops!! There is bug in the code :disappointed:")
+       st.error(":confused: Oops!! There is bug in the code :confused:")
         
 if nav=="Prediction":
     st.title("Enter The Parameters")
