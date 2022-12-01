@@ -25,7 +25,7 @@ def predict():
     prediction_res=model.predict(X_in)
     st.write(prediction_res)
     if prediction_res==0:
-       st.success("There is no bug in the code")
+       st.success("There is no bug in the code 	:tada:")
     if prediction_res==1:
        st.error("There is bug in the code")
         
