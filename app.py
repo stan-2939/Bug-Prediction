@@ -55,6 +55,8 @@ if nav=="Working":
     st.write("")
     st.write("The model we have used here is SGDC Classifier and the accuracy of the model is 90.6%")
     st.write("")
+    st.write("For more info on the model,kindly visit")
+    st.write("https://scikit-learn.org/stable/modules/sgd.html#:~:text=SGDClassifier%20supports%20multi%2Dclass%20classification,that%20and%20all%20other%20classes.")
 
 
 
