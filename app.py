@@ -17,7 +17,7 @@ nav = st.sidebar.radio("Navigation",["Home","Prediction","Working"])
 if nav=="Home":
     st.title("Predict The Bugs In Your Code")
     st.image(image)
-    st.write("Bug Prediction and Identification is a key activity for software maintenance. This website uses machine learning models to assess code, making use of it's ability to learn from large number of parameters (features) and faster decision making. You just need to fill in the parameters and the website will predict whether your code has a bug with 98.5% accuracy.")
+    st.write("Bug Prediction and Identification is a key activity for software maintenance. This website uses machine learning models to assess code, making use of it's ability to learn from large number of parameters (features) and faster decision making. You just need to fill in the parameters and the website will predict whether your code has a bug with 90.6% accuracy.")
 
 def predict():
     row = np.array([a,b,c,d,e,f,g,h,i,j,k,l])
@@ -53,7 +53,7 @@ if nav=="Working":
     st.title("This is how the model actually works")
     st.write("The machine learning models deployed after vigorous training and testing phases provide the output prediction as of whether the code you've written contains a bug or not.")
     st.write("")
-    st.write("The model we have used here is ExtraTrees Classifier and the accuracy of the model is 98.5%")
+    st.write("The model we have used here is ExtraTrees Classifier and the accuracy of the model is 90.6%")
     st.write("")
 
 
