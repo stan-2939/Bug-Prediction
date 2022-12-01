@@ -25,9 +25,9 @@ def predict():
     prediction_res=model.predict(X_in)
     st.write(prediction_res)
     if prediction_res==0:
-       st.success("There is no bug in the code 	:tada:")
+       st.success(":tada: Congo!! There is no bug in the code 	:tada:")
     if prediction_res==1:
-       st.error("There is bug in the code")
+       st.error(":disappointed: Oops!! There is bug in the code :disappointed:")
         
 if nav=="Prediction":
     st.title("Enter The Parameters")
