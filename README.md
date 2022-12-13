@@ -10,14 +10,14 @@ You just need to visit " https://stan-2939-bug-prediction-app-d0neos.streamlit.a
 3. Click on predict
 4. This will predict if there is a defect or not
 
-##Dependecies
+## Dependecies
 1. streamlit
 2. numpy==1.21.5
 3. pandas
 4. Pillow==9.3.0
 5. scikit-learn
 
-##Methodolgy
+## Methodolgy
 
 *Data visualisation in Jupyter Notebook
 
