@@ -18,6 +18,7 @@ You just need to visit " https://stan-2939-bug-prediction-app-d0neos.streamlit.a
 5. scikit-learn
 
 ##Methodolgy
+
 *Data visualisation in Jupyter Notebook
 
 *Model Creation: Extra Trees Classifier has the best score among the models.
