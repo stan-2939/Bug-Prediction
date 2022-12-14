@@ -21,7 +21,7 @@ You just need to visit " https://stan-2939-bug-prediction-app-d0neos.streamlit.a
 
 *Data visualisation in Jupyter Notebook
 
-*Model Creation: Extra Trees Classifier has the best score among the models.
+*Model Creation: SGD Classifier has the best score among the models.
 
 *Transformation of the model using Streamlit API
 
